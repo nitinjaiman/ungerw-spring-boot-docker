@@ -1,6 +1,6 @@
 [
     {
-        "name": "ecs-example-repository",
+        "name": "Cluster-001",
         "imageUri": "682941315842.dkr.ecr.us-west-1.amazonaws.com/ecs-example-repository"
     }
 ]
