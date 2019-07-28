@@ -16,6 +16,7 @@ public class HelloWorldService {
     @GET
     @Path("/hello")
     public Response test() {
+        System.out.println("logged");
         return Response.status(200).entity("Hello from Nitin jaiman").build();
     }
 
