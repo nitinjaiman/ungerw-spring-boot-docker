@@ -1,9 +1,8 @@
-package com.unw;
+package com.trading.flarebot;
 
+import com.trading.flarebot.service.HelloWorldService;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
-
-import com.unw.service.HelloWorldService;
 
 /**
  * @author UNGERW

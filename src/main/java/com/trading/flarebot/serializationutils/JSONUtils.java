@@ -1,4 +1,4 @@
-package com.unw.serializationutils;
+package com.trading.flarebot.serializationutils;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -6,7 +6,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.unw.serializationutils.exceptions.SerializationException;
+import com.trading.flarebot.serializationutils.exceptions.SerializationException;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.unw.service;
+package com.trading.flarebot.service;
 
 import org.springframework.stereotype.Component;
 
