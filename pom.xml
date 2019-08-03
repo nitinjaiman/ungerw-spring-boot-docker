@@ -29,6 +29,13 @@
             <artifactId>spring-boot-starter-jersey</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.SerializationUtils</groupId>
+            <artifactId>SerializationUtils</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
