@@ -53,6 +53,11 @@
             <version>1.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.trading.flarebot.unifiedtradingview</groupId>
+            <artifactId>UnifiedTradingView</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>

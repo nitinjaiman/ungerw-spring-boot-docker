@@ -15,6 +15,7 @@
 log/
 target/
 /.gradle/
+.gradle/
 /build/
 /build
 /commands.txt
