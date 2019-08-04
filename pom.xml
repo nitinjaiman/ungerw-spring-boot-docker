@@ -7,6 +7,24 @@
     <artifactId>spring-boot</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>Mainrepo</id>
+            <url>https://mymavenrepo.com/repo/DJUtoa7eOuQ7XWC9iKVM/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>Mainrepo</id>
+            <url>https://mymavenrepo.com/repo/8ueJClHJsq3W2hJ8eq6M/</url>
+        </repository>
+        <snapshotRepository>
+            <id>Mainrepo</id>
+            <url>https://mymavenrepo.com/repo/8ueJClHJsq3W2hJ8eq6M/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -27,6 +45,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jersey</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.SerializationUtils</groupId>
+            <artifactId>SerializationUtils</artifactId>
+            <version>1.0</version>
         </dependency>
 
     </dependencies>
