@@ -25,6 +25,7 @@ public class ExchangeTicker implements Runnable {
         while (true) {
             System.out.println("ServerTime: " + unifiedTradingViewClient.getServerTime());
             System.out.println("Price: " + unifiedTradingViewClient.getPrice(SymbolConstant.BTCUSDT));
+            TickerSingleton.price = unifiedTradingViewClient.getPrice(SymbolConstant.BTCUSDT).getPrice();
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {

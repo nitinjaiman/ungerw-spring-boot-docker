@@ -1,6 +1,7 @@
 package com.trading.flarebot.service;
 
 import com.trading.flarebot.experimental.ExchangeTicker;
+import com.trading.flarebot.experimental.TickerSingleton;
 import com.trading.flarebot.unifiedtradingview.constant.ExchangeConstant;
 import com.trading.flarebot.unifiedtradingview.constant.SymbolConstant;
 import org.springframework.stereotype.Component;
@@ -22,7 +23,7 @@ public class HelloWorldService {
         System.out.println("logged");
         Thread thread = new Thread(new ExchangeTicker(ExchangeConstant.BINANCE, SymbolConstant.BTCUSDT));
         thread.start();
-        return Response.status(200).entity("Hello from Nitin jaiman ").build();
+        return Response.status(200).entity("Hello from Nitin jaiman "+ TickerSingleton.price).build();
     }
 
 }
