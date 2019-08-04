@@ -40,7 +40,7 @@ def springIntegrationVersion = '5.0.3.RELEASE'
 def jaxbVersion= '2.3.0'
 
 
-task wrapper(type: Wrapper) {
+wrapper {
     gradleVersion = '4.6'
 }
 
